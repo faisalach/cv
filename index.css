@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+body{
+    margin: 0px;
+}
+.header{
+    padding: 50px;
+    background-color: #dadada;
+}
+.header .box-img{
+    text-align: center;
+    flex: 1 1;
+}
+.header .box-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    object-position: top;
+}
+.header .title{
+    flex: 1 1;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+}
+
+.content .side-left{
+    background-color: #efefef;
+    padding: 20px;
+    /* flex: 1 1 ; */
+}
+.content .side-left .profile ul{
+    line-height: 40px;
+}
+
+.content .side-right{
+    padding : 20px;
+    flex: 1 1 ;
+}
+.content .side-right .skill table{
+    width: 100%;
+}
+.content .side-right .pendidikan ol{
+    line-height: 40px;
+}
